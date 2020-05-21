@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "jvm-param-reader-stack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-126jiqkvxl2bq"
+s3_prefix = "jvm-param-reader-stack"
+region = "us-east-1"
+profile = ""
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
